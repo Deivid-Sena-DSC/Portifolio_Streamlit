@@ -7,6 +7,7 @@ def localizar_coordenadas(bairro, estado, uf, cep):
     location = geolocator.geocode(local)
     latitude = location.latitude
     longitude = location.longitude
+    
     fig = go.Figure(go.Scattermap(
         lat=[latitude],
         lon=[longitude],
