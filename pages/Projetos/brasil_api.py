@@ -1,4 +1,5 @@
 import requests
+import streamlit as st
 
 #BUSCAR CEP
 def consulta_cep(cep):
